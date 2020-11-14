@@ -1,4 +1,3 @@
-const { beforeEach } = require('@jest/globals');
 const functions = require('./index')
 
 beforeEach(() => {
