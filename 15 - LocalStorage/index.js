@@ -21,7 +21,7 @@ function populateList(plates = [], platesList) {
         return `
         <li>
             <input type="checkbox" data-index=${i} id="item${i}" ${plate.done && "checked"}/>
-            <label for="item${i}"> ${plate.text}
+            <label for="item${i}"> ${plate.text} </label>
         </li>
         `
     }).join('');
